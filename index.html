@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="side-bar-open.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&display=swap" rel="stylesheet">
+    <title>White Cursor</title>
+</head>
+
+<body>
+    <input type="checkbox" id="side-bar-opening" hidden />
+
+    <div class="side-bar-open">
+        <div class="head">
+            <p class="head__text">White</p>
+            <img class="head__img" src="images/cursor-black.svg" />
+            <p class="head__cursor">Cursor</p>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <ul class="menu__items">
+                        <li class="menu__item">О студии</li>
+                        <hr class="line" />
+                        <li class="menu__item">Услуги</li>
+                        <hr class="line" />
+                        <li class="menu__item">Портфолио</li>
+                        <hr class="line" />
+                        <li class="menu__item">Отзывы</li>
+                        <hr class="line" />
+                        <li class="menu__item">Контакты</li>
+                        <hr class="line" />
+                        <li class="menu__item">Блог</li>
+                        <hr class="line" />
+                        <li class="menu__item">Вопрос-Ответ</li>
+                        <hr class="line" />
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li class="in-line">
+                            <img src="images/phone.svg" />
+                            <p class="text">+7-999-777-55-33</p>
+                        </li>
+                        <li class="in-line">
+                            <img src="images/mail.svg" />
+                            <p class="text">Написать нам</p>
+                        </li>
+                        <li class="in-line__media">
+                            <img src="images/telegram.svg" />
+                            <img src="images/instagram.svg" />
+                            <img src="images/vk.svg" />
+                            <img src="images/facebook.svg" />
+                        </li>
+                        <li class="in-line">
+                            <img src="images/add.svg" />
+                            <p class="text">Стать клиентом</p>
+                        </li>
+                        <li class="in-line">
+                            <img src="images/person.svg" />
+                            <p class="text">Личный кабинет</p>
+                        </li>
+                        <li class="in-line__settings">
+                            <img class="add" src="images/ruble.svg" />
+                            <img class="add" src="images/flag.png" />
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <label class="full-screen" for="side-bar-opening">
+        <button class="full-screen-btn"></button>
+    </label>
+
+    <div class="wrapper">
+
+        <div class="side-bar">
+            <div class="burger-menu">
+                <label class="burger-menu__btn" for="side-bar-opening">
+                    <img src="images/bm.svg" />
+                </label>
+            </div>
+            <div class="contacts">
+                <ul class="contacts__links">
+                    <li class="contacts__item">
+                        <a href="#" class="contacts__item__link">
+                            <img src="images/phone.svg" />
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <a href="#" class="contacts__item__link">
+                            <img src="images/mail.svg" />
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <a href="#" class="contacts__item__link">
+                            <img src="images/telegram.svg" />
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <a href="#" class="contacts__item__link">
+                            <img src="images/instagram.svg" />
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <a href="#" class="contacts__item__link">
+                            <img src="images/vk.svg" />
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <a href="#" class="contacts__item__link">
+                            <img src="images/facebook.svg" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="settings">
+                <ul class="setting__links">
+                    <li class="setting__item">
+                        <a href="#" class="setting__item__link">
+                            <img src="images/add.svg" />
+                        </a>
+                    </li>
+                    <li class="setting__item">
+                        <a href="#" class="setting__item__link">
+                            <img src="images/person.svg" />
+                        </a>
+                    </li>
+                    <li class="setting__item">
+                        <a href="#" class="setting__item__link">
+                            <img src="images/ruble.svg" />
+                        </a>
+                    </li>
+                    <li class="setting__item">
+                        <a href="#" class="setting__item__link">
+                            <img src="images/flag.png" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="middle">
+                <div class="headding">
+                    <p>White</p>
+                    <img class="headding__img" src="images/cursor.svg" />
+                    <p class="headding__cursor">Cursor</p>
+                </div>
+
+                <div class="main-text">
+                    <h1 class="main-text__discount">СКИДКА 15% </h1>
+                    <h2 class="main-text__task">НА ПЕРВУЮ ЗАДАЧУ</h2>
+                    <button class="main-text__btn-write">НАПИСАТЬ</button>
+
+                </div>
+                <div class="scrol-down">
+                    <button class="scrol-down__btn">
+                        <img src="images/down.svg" />
+                    </button>
+                </div>
+            </div>
+            <div class="slider">
+                <img src="images/slider.svg" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

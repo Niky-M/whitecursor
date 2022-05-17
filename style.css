@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+ul{
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    width: auto;
+}
+
+.side-bar {
+    width: 67px;
+    text-align: center;
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.burger-menu__btn {
+    background: none;
+    border: none;
+    margin-top: 50px;
+    position: relative;
+}
+
+.inp:checked~.main-text__btn-write {
+    display: none;
+}
+
+.burger-menu__btn:hover+.side-bar {
+    display: none;
+}
+
+.burger-menu__btn:active .side-bar-open {
+    display: flex;
+}
+
+.contacts__links {
+    padding: 0;
+}
+
+.contacts__item {
+    padding-top: 35px;
+}
+
+.contacts__item__link {
+    margin: auto;
+    justify-content: center;
+}
+
+.setting__links {
+    padding: 0;
+}
+
+.setting__item {
+    padding-top: 35px;
+}
+
+.page {
+    background: #1E2E3B;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-image: url('images/fon.svg');
+    background-size: cover;
+}
+
+.middle {
+    height: auto;
+    margin: 0 auto;
+}
+
+.headding {
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+    font-family: 'Quicksand';
+    font-size: 38px;
+}
+
+.headding__img {
+    transform: translateY(20px);
+}
+
+.headding__cursor {
+    transform: translateX(-10px);
+}
+
+.main-text {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 160px;
+    font-family: 'Montserrat';
+}
+
+.main-text__discount {
+    font-size: 69px;
+}
+
+.main-text__task {
+    font-size: 41px;
+}
+
+.main-text__btn-write {
+    background: #BA273A;
+    width: 203px;
+    height: 53px;
+    color: white;
+    font-size: 20px;
+    border-radius: 2px;
+    border: #BA273A solid;
+    box-shadow: 0 2px 0 0 #8C1928;
+}
+
+.scrol-down {
+    margin: auto;
+    justify-content: center;
+}
+
+.scrol-down__btn {
+    background: none;
+    border: none;
+    display: flex;
+    margin: auto;
+    padding-top: 48px;
+}
+
+.slider {
+    float: right;
+    vertical-align: middle;
+    margin: auto 50px auto 0;
+}
